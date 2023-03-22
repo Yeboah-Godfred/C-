@@ -12,7 +12,7 @@ int main()
     getline(std::cin ,name);
     std::cout << "How old are you " << name << std::endl;
     std::cin >> age;
-    
+
     if(age < 18){
         std::cout << "You are less than 18, you can't play this game." << std::endl;
         return 0;
